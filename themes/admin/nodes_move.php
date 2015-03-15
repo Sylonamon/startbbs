@@ -47,5 +47,5 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 
-<?php $this->load->view ('footer');?>
+<?php $this->load->view ('common/footer'); ?>
 </body></html>

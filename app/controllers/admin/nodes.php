@@ -25,7 +25,7 @@ class Nodes extends Admin_Controller
 	public function del($node_id)
 	{
 		$data['title'] = '删除分类';
-		//$this->myclass->notice('alert("确定再删除吗！");');
+		//$this->myclass->notice('confirm("确定再删除吗！");');
 		$this->cate_m->del_cate($node_id);
 		show_message('删除分类成功！',site_url('admin/nodes'),1);	
 
